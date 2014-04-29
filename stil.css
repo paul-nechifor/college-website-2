@@ -1,0 +1,27 @@
+* { margin:0; padding:0; }
+html { background:url(/imagini/fundal.png) #131313; }
+body { margin:0 auto; width:900px; border:3px solid #151515; border-top-width:0; background:#050505; color:#999; font-family:sans-serif; }
+div#antet { height:95px; background:url(imagini/antet.png); text-indent:-9999px; }
+div#meniu { font-family:monospace; font-size:12px; border-bottom: 1px solid #222; height: 30px; background:url(imagini/meniu.png); }
+div#meniu ul { list-style:none; display:block; margin-left:186px; }
+div#meniu ul li { display:block; float:left; padding: 6px 20px; }
+div#meniu ul li:hover a { color: #999; }
+div#meniu li a { color:#777; text-decoration:none; }
+div#meniu div#limba { display:block; float:right; margin-top:15px; font-size:10px; }
+div#meniu div#limba a { color:#555; text-decoration:none; }
+div#continut { font-size:12px; min-height:400px; padding:10px; }
+div#continut p { margin:0 5px 10px 5px; line-height:1.5; text-align:justify; }
+div#continut h2 { font-family:"Bitstream Vera Sans Mono", monospace; font-size:18px; font-weight:normal; margin:10px 0; text-align:center;}
+div#continut h3 { font-size:16px; font-weight:bold; margin:15px 0 5px 40px; }
+div#continut ul { margin:5px 20px; }
+div#continut .imagine_dr { float:right; margin:5px; border:1px solid #151515; font-size:10px; color:666; }
+div#continut .imagine_dr img { margin: 2px; }
+div#continut .imagine_dr p { margin:0; text-align:center; }
+div#continut .imagine_st { float:left; margin:5px; border:1px solid #151515; font-size:10px; color:666; }
+div#continut .imagine_st img { margin: 2px; }
+div#continut .imagine_st p { margin:0; text-align:center; }
+div#continut code { color:#69A969; }
+div#continut pre.fara { background:#0C0C0C; width:830px; border:1px solid #111; margin:0 0 5px 35px; padding:2px; color:#69A969; }
+div#subsol { padding:12px; border-top:1px solid #222; background:#101010; font-size:9px; text-align:center; color:#444; }
+div#subsol a { color:#666; text-decoration:none; }
+div#subsol a:hover { text-decoration:underline; }

@@ -19,9 +19,9 @@ function afiseazaAntet($titlu, $descriere, $cuvinteCheie, $limba)
 <head>
 	<title>'.$titlu.' — Paul Nechifor</title>
 	<!-- smart developers always view source -->
-	<link href="/stil.css" rel="stylesheet" type="text/css" />
-	<link href="/pygments.css" rel="stylesheet" type="text/css" />
-	<link href="/imagini/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="/college-website-2/stil.css" rel="stylesheet" type="text/css" />
+	<link href="/college-website-2/pygments.css" rel="stylesheet" type="text/css" />
+	<link href="/college-website-2/imagini/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="'.$descriere.'" />
 	<meta name="keywords" content="'.$cuvinteCheie.'" />
@@ -31,28 +31,28 @@ function afiseazaAntet($titlu, $descriere, $cuvinteCheie, $limba)
 	<div id="antet">
 		<h1>Paul Nechifor</h1>
 	</div>
-	
+
 	';
-	
+
 	if ($limba == "en")
 		print '<div id="meniu">
 		<ul>
-			<li><a href="/index.php?limba=en">First page</a></li>
-			<li><a href="/despre_mine.php?limba=en">About me</a></li>
-			<li><a href="/programare.php?limba=en">Programming</a></li>
-			<li><a href="/altele.php?limba=en">Others</a></li>
-			<li><a href="/contact.php?limba=en">Contact</a></li>
+			<li><a href="/college-website-2/index.php?limba=en">First page</a></li>
+			<li><a href="/college-website-2/despre_mine.php?limba=en">About me</a></li>
+			<li><a href="/college-website-2/programare.php?limba=en">Programming</a></li>
+			<li><a href="/college-website-2/altele.php?limba=en">Others</a></li>
+			<li><a href="/college-website-2/contact.php?limba=en">Contact</a></li>
 		</ul>
 		<div id="limba"><a href="?limba=ro">[română]</a></div>
 	</div>';
 	else
 		print '<div id="meniu">
 		<ul>
-			<li><a href="/index.php">Prima pagină</a></li>
-			<li><a href="/despre_mine.php">Despre mine</a></li>
-			<li><a href="/programare.php">Programare</a></li>
-			<li><a href="/altele.php">Altele</a></li>
-			<li><a href="/contact.php">Contact</a></li>
+			<li><a href="/college-website-2/index.php">Prima pagină</a></li>
+			<li><a href="/college-website-2/despre_mine.php">Despre mine</a></li>
+			<li><a href="/college-website-2/programare.php">Programare</a></li>
+			<li><a href="/college-website-2/altele.php">Altele</a></li>
+			<li><a href="/college-website-2/contact.php">Contact</a></li>
 		</ul>
 		<div id="limba"><a href="?limba=en">[english]</a></div>
 	</div>';
@@ -69,12 +69,12 @@ function afiseazaSubsol($limba)
 
 	<div id="subsol">
 		<p>';
-	
+
 	if ($limba == "en")
 		print 'Copyright © 2009 <a href="#">Paul Nechifor</a> — I don\'t know what\'s with this right, but I have it.';
 	else
 		print 'Drept de copiere © 2009 <a href="#">Paul Nechifor</a> — Ce-i cu dreptul ăsta, nu știu, dar îl am.';
-	
+
 	print '</p>
 	</div>
 </body>

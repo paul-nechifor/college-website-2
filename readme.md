@@ -1,3 +1,7 @@
+# This repository has been moved to [gitlab.com/paul-nechifor/college-website-2](http://gitlab.com/paul-nechifor/college-website-2).
+
+Old readme:
+
 # Second College Website
 
 My second college website which I hosted on the students' server. This is from
